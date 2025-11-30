@@ -4,6 +4,9 @@ This is a user guide for my personal package repository hosted on the OBS (Open 
 ## Supported Distributions & Architectures
 **Distributions**
 - Debian 13
+- Ubuntu 24.04
+- Ubuntu 24.10
+- Ubuntu 25.04
 
 **Architectures**
 - amd64
@@ -21,13 +24,18 @@ curl -fsSL https://download.opensuse.org/repositories/home:/beavailable/Debian_1
 ```
 
 ### 2. Add the repository
-Create a file at `/etc/apt/sources.list.d/obs-beavailable.sources`, then paste the following content:
+Create the file `/etc/apt/sources.list.d/obs-beavailable.sources` and paste the following content:
 ```
 Types: deb deb-src
-URIs: https://download.opensuse.org/repositories/home:beavailable/Debian_13
+URIs: https://download.opensuse.org/repositories/home:beavailable/REPO
 Suites: ./
 Signed-By: /etc/apt/keyrings/obs-beavailable-keyring.gpg
 ```
+Replace `REPO` with one of the following names:
+- Debian_13
+- xUbuntu_24.04
+- xUbuntu_24.10
+- xUbuntu_25.04
 
 ## How To Install Packages?
 ```bash
