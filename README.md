@@ -26,7 +26,7 @@ curl -fsSL https://download.opensuse.org/repositories/home:/beavailable/Debian_1
 ### 2. Add the repository
 Create the file `/etc/apt/sources.list.d/obs-beavailable.sources` and paste the following content:
 ```
-Types: deb deb-src
+Types: deb
 URIs: https://download.opensuse.org/repositories/home:beavailable/REPO
 Suites: ./
 Signed-By: /etc/apt/keyrings/obs-beavailable-keyring.gpg
