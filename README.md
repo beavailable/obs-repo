@@ -1,5 +1,5 @@
 # obs-repo
-This is a user guide for my personal package repository hosted on the OBS (Open Build Service).
+This is a user guide for my personal open-source package repository hosted on the OBS (Open Build Service).
 
 ## Supported Distributions & Architectures
 **Distributions**
@@ -13,8 +13,9 @@ This is a user guide for my personal package repository hosted on the OBS (Open 
 - arm64
 
 ## Available Packages
-- [share](https://github.com/beavailable/share)
+- [china-pac](https://github.com/beavailable/china-pac)
 - [plasma-runner-otp](https://github.com/beavailable/plasma-runner-otp)
+- [share](https://github.com/beavailable/share)
 
 ## Setup
 
