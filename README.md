@@ -21,7 +21,7 @@ This is a user guide for my personal open-source package repository hosted on th
 
 ### 1. Add my GPG key
 ```bash
-curl -fsSL https://download.opensuse.org/repositories/home:/beavailable/Debian_13/Release.key | gpg --dearmor | sudo tee /etc/apt/keyrings/obs-beavailable-keyring.gpg >/dev/null
+curl -fsSL https://download.opensuse.org/repositories/home:/beavailable/Debian_13/Release.key | sudo gpg -o /etc/apt/keyrings/obs-beavailable-keyring.gpg --dearmor
 ```
 
 ### 2. Add the repository
