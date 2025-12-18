@@ -7,7 +7,7 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-SUPPORTED_DISTROS=' Debian_13 xUbuntu_24.04 xUbuntu_24.10 xUbuntu_25.04 '
+SUPPORTED_DISTROS=' Debian_13 xUbuntu_24.04 xUbuntu_24.10 xUbuntu_25.04 xUbuntu_25.10 '
 
 name=$(sed -nE 's/^ID=(\S+)$/\1/p' /etc/os-release)
 version=$(sed -nE 's/^VERSION_ID="(\S+)"$/\1/p' /etc/os-release)

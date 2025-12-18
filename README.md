@@ -7,6 +7,7 @@ This is a user guide for my personal open-source package repository hosted on th
 - Ubuntu 24.04
 - Ubuntu 24.10
 - Ubuntu 25.04
+- Ubuntu 25.10
 
 **Architectures**
 - amd64
@@ -39,6 +40,7 @@ Replace `REPO` with one of the following names:
 - xUbuntu_24.04
 - xUbuntu_24.10
 - xUbuntu_25.04
+- xUbuntu_25.10
 
 ### Method 2
 ```bash
