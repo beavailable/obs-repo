@@ -15,6 +15,7 @@ This is a user guide for my personal open-source package repository hosted on th
 
 ## Available Packages
 - [china-pac](https://github.com/beavailable/china-pac)
+- [deno](https://github.com/beavailable/deno)
 - [geph5-client](https://github.com/beavailable/geph5-client)
 - [plasma-runner-otp](https://github.com/beavailable/plasma-runner-otp)
 - [share](https://github.com/beavailable/share)
