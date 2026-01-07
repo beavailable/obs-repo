@@ -28,7 +28,7 @@ if [[ "$SUPPORTED_DISTROS" != *\ $name\ * ]]; then
     exit 1
 fi
 
-curl -fsSL --connect-timeout 10 "https://download.opensuse.org/repositories/home:/beavailable/$name/Release.key" | gpg --yes -o /etc/apt/keyrings/obs-beavailable-keyring.gpg --dearmor
+curl -fsSL --connect-timeout 10 "https://download.opensuse.org/repositories/home:/beavailable/$name/Release.key" | gpg --dearmor --yes -o /etc/apt/keyrings/obs-beavailable-keyring.gpg
 
 {
     echo 'Types: deb'
