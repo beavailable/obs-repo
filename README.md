@@ -8,6 +8,7 @@ This is a user guide for my personal open-source package repository hosted on th
 - Ubuntu 24.10
 - Ubuntu 25.04
 - Ubuntu 25.10
+- Ubuntu 26.04
 
 **Architectures**
 - amd64
@@ -45,6 +46,7 @@ This is a user guide for my personal open-source package repository hosted on th
     - xUbuntu_24.10
     - xUbuntu_25.04
     - xUbuntu_25.10
+    - xUbuntu_26.04
 
 ### Method 2
 ```bash
